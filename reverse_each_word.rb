@@ -1,5 +1,5 @@
 def reverse_each_word(sentance)
   now_an_array= sentance.split("")
-  (sentance).each {|word| backwards.unshift(word)}
-  p backwards
+  final_utterance = now_an_array.each {|word| backwards.unshift(word)}
+
 end
