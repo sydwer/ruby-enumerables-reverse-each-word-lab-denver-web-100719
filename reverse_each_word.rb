@@ -1,3 +1,2 @@
 def reverse_each_word(sentance)
-  array = []
-  (array).each
+  (sentance).each
